@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #2f3b4c;
+}
+
+#flipbook {
+    width: 600px;
+    height: 800px;
+    margin: 0;
+    background-color: #3e4a5a;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-image: url('./images/page1.png');
+}
+
+.cover img {
+    width: 80%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.cover h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.cover .quote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.cover .author, .cover .event {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.nav-button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.nav-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+}
+
+.page img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
