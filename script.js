@@ -6,8 +6,8 @@ $(document).ready(function() {
     });
 
     $("#flipbook").turn({
-        width: 600,
-        height: 800,
+        width: 800,
+        height: 1000,
         autoCenter: true,
         display: 'single',
         gradients: true,
